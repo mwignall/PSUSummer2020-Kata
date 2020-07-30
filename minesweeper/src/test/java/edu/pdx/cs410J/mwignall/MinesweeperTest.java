@@ -2,12 +2,12 @@ package edu.pdx.cs410J.mwignall;
 
 import org.junit.Test;
 
-public class KataTest
+public class MinesweeperTest
 {
 
   @Test
   public void canInstantiateKataClass() {
-    new Kata();
+    new Minesweeper();
   }
 
 }

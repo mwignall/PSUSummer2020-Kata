@@ -8,11 +8,11 @@ package edu.pdx.cs410J.mwignall;
  *
  * Students: Mark Wignall, Roland Ballinger, Yves Wienecke, Jordan Tippetts
  */
-public class Kata {
-                                                                                    
-
+public class Minesweeper {
+  
   public static void main(String[] args) {
-    System.err.println("Missing command line arguments");
-    System.exit(1);
+  
   }
+  
+  
 }
