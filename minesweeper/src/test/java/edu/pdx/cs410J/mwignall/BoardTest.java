@@ -1,9 +1,10 @@
 package edu.pdx.cs410J.mwignall;
 
 import junit.framework.TestCase;
+import org.junit.Assert;
 import org.junit.Test;
 
-public class BoardTest extends TestCase {
+public class BoardTest {
   
   @Test
   public void testConstruct(){
@@ -16,8 +17,8 @@ public class BoardTest extends TestCase {
         count += 1;
       }
     }
-    assertEquals(0, sum);
-    assertEquals(100, count);
+    Assert.assertEquals(0, sum);
+    Assert.assertEquals(100, count);
   }
 
   @Test(expected = IllegalArgumentException.class)
@@ -41,8 +42,8 @@ public class BoardTest extends TestCase {
         count += 1;
       }
     }
-    assertEquals(1, sum);
-    assertEquals(100, count);
+    Assert.assertEquals(1, sum);
+    Assert.assertEquals(100, count);
   }
 
 
