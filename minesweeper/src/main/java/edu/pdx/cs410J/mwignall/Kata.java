@@ -6,7 +6,7 @@ package edu.pdx.cs410J.mwignall;
  * Use IntelliJ's "Refactor | Rename..." command to change the name of this
  * class (and its tests).
  *
- * Students: Mark Wignall
+ * Students: Mark Wignall, Roland Ballinger
  */
 public class Kata {
                                                                                     
