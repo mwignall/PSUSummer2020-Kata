@@ -6,7 +6,8 @@ package edu.pdx.cs410J.mwignall;
  * Use IntelliJ's "Refactor | Rename..." command to change the name of this
  * class (and its tests).
  *
- * Students: Mark Wignall, Roland Ballinger, Yves Wienecke, Jordan Tippetts
+ * Students: Mark Wignall, Roland Ballinger, Yves Wienecke, Jordan Tippetts, Deep Patel
+ *
  */
 public class Minesweeper {
   
