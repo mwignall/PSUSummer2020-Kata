@@ -19,4 +19,20 @@ public class BoardTest extends TestCase {
     assertEquals(0, sum);
     assertEquals(100, count);
   }
+
+  @Test(expected = IllegalArgumentException.class)
+  public void invalidBoardSizeOnCreationFails () {
+    Board newBoard = new Board(200, 200);
+  }
+
+  @Test(expected = IllegalArgumentException.class)
+  public void boardSizeWithNegativeOrZeroNumbers () {
+    Board newBoard = new Board(200, 200);
+  }
+
+
+
+
+
+
 }

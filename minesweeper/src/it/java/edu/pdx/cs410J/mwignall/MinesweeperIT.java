@@ -10,9 +10,9 @@ import static org.hamcrest.core.StringContains.containsString;
 public class MinesweeperIT extends InvokeMainTestCase {
 
   @Test
-  public void invokingMainWithNoArgumentsHasExitCodeOf1() {
+  public void invokingMainWithNoArgumentsHasExitCodeOf0() {
     InvokeMainTestCase.MainMethodResult result = invokeMain(Minesweeper.class);
-    assertThat(result.getExitCode(), equalTo(1));
+    assertThat(result.getExitCode(), equalTo(0));
   }
 
   @Test
