@@ -27,7 +27,22 @@ public class BoardTest extends TestCase {
 
   @Test(expected = IllegalArgumentException.class)
   public void boardSizeWithNegativeOrZeroNumbers () {
-    Board newBoard = new Board(200, 200);
+    Board newBoard = new Board(0, -1);
+  }
+
+  @Test
+  public void addMineAt5(){
+    Board newBoard = new Board(10,10);
+    int sum = 0;
+    int count = 0;
+    for (int[] i : newBoard.mines){
+      for(int j : i){
+        sum += j;
+        count += 1;
+      }
+    }
+    assertEquals(1, sum);
+    assertEquals(100, count);
   }
 
 
